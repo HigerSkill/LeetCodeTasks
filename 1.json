@@ -163,6 +163,57 @@
               }
             ],
             "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_plus",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "5x",
+                  "left": "8x",
+                  "right": "6x",
+                  "top": "5x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "На регулярные расходы",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 1
+              },
+              "type": "simple_left_view"
+            },
+            "right": {
+              "margins": {
+                "bottom": "8x",
+                "left": "0x",
+                "right": "4x",
+                "top": "8x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "actions": [
+              {
+                "deep_link": "sberbankonline://cards/activate?internal_source=audiohelper637_3",
+                "type": "deep_link"
+              }
+            ],
+            "type": "left_right_cell_view"
           }
         ],
         "background_color": "card_background",
