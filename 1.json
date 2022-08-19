@@ -209,7 +209,7 @@
             },
             "actions": [
               {
-                "deep_link": "sberbankonline://cards/activate?internal_source=audiohelper637_3",
+                "deep_link": "sberbankonline://pfm/budget",
                 "type": "deep_link"
               }
             ],
