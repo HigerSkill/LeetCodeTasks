@@ -168,8 +168,8 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_plus",
-                  "type": "local"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_creditn_36x36_@4x.png",
+                  "type": "url"
                 },
                 "size": {
                   "width": "medium",
