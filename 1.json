@@ -10,215 +10,71 @@
     },
     {
       "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x",
+          "left": "4x",
+          "right": "4x"
+        },
         "cells": [
           {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_creditn_36x36_@4x.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "5x",
-                  "left": "8x",
-                  "right": "6x",
-                  "top": "5x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "title": {
-                "text": "Кредитный лимит",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": {
-                  "bottom": "9x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "9x"
-                },
-                "max_lines": 1
-              },
-              "type": "simple_left_view"
-            },
-            "right": {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Текст",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 0,
               "margins": {
-                "bottom": "8x",
-                "left": "0x",
-                "right": "4x",
-                "top": "8x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "actions": [
-              {
-                "text": "Кредитный лимит",
-                "type": "text"
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
               }
-            ],
-            "type": "left_right_cell_view"
+            }
           },
           {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_daily-limit_36x36_@4x.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "5x",
-                  "left": "8x",
-                  "right": "6x",
-                  "top": "5x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "title": {
-                "text": "На платежи и переводы",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": {
-                  "bottom": "9x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "9x"
-                },
-                "max_lines": 1
-              },
-              "type": "simple_left_view"
-            },
-            "right": {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Текст 1",
+              "typeface": "footnote1",
+              "text_color": "default",
+              "max_lines": 0,
               "margins": {
-                "bottom": "8x",
-                "left": "0x",
-                "right": "4x",
-                "top": "8x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "actions": [
-              {
-                "text": "На платежи и переводы",
-                "type": "text"
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
               }
-            ],
-            "type": "left_right_cell_view"
+            }
           },
           {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_creditn_36x36_@4x.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "5x",
-                  "left": "8x",
-                  "right": "6x",
-                  "top": "5x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "title": {
-                "text": "Тарифные лимиты",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": {
-                  "bottom": "9x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "9x"
-                },
-                "max_lines": 1
-              },
-              "type": "simple_left_view"
-            },
-            "right": {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Интересный факт",
+              "typeface": "footnote1",
+              "text_color": "tertiary",
+              "max_lines": 0,
               "margins": {
-                "bottom": "8x",
-                "left": "0x",
-                "right": "4x",
-                "top": "8x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "actions": [
-              {
-                "text": "Тарифные лимиты",
-                "type": "text"
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
               }
-            ],
-            "type": "left_right_cell_view"
+            }
           },
           {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_creditn_36x36_@4x.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "5x",
-                  "left": "8x",
-                  "right": "6x",
-                  "top": "5x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "title": {
-                "text": "На регулярные расходы",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": {
-                  "bottom": "9x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "9x"
-                },
-                "max_lines": 1
-              },
-              "type": "simple_left_view"
-            },
-            "right": {
-              "margins": {
-                "bottom": "8x",
-                "left": "0x",
-                "right": "4x",
-                "top": "8x"
-              },
-              "type": "disclosure_right_view"
-            },
+            "type": "left_right_cell_view",
+            "left": {},
+            "right": {},
             "actions": [
               {
-                "deep_link": "sberbankonline://pfm/budget",
-                "type": "deep_link"
+                "type": "deep_link",
+                "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/products/target?action=create"
               }
-            ],
-            "type": "left_right_cell_view"
+            ]
           }
-        ],
-        "background_color": "card_background",
-        "can_be_disabled": true,
-        "type": "list_card"
+        ]
       }
     }
   ]
