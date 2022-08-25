@@ -57,15 +57,13 @@
             }
           },
           {
-            "type": "left_right_cell_view",
-            "left": {},
-            "right": {},
-            "actions": [
-              {
+            "command": {
+              "type": "action",
+              "action": {
                 "type": "deep_link",
-                "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/products/target?action=create"
+                "deep_link": "{% if payload.device.platformType|lower == 'ios' %}{{ get_deeplink_scheme(payload.device.get('surfaceVersion', '0')) }}/profile/user_profile?internal_source=audiohelper642{% else %}android-app://ru.sberbankmobile_alpha/profile/main?internal_source=audiohelper642{% endif %}"
               }
-            ]
+            }
           }
         ]
       }
