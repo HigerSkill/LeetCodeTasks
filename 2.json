@@ -55,6 +55,17 @@
                 "right": "2x"
               }
             }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {},
+            "right": {},
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/products/target?action=create"
+              }
+            ]
           }
         ]
       }
