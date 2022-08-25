@@ -2,13 +2,6 @@
   "type": "sdk_answer",
   "items": [
     {
-      "bubble": {
-        "text": "Про лимиты я знаю очень много. Даже не могу решить, о чём рассказать в первую очередь",
-        "markdown": true,
-        "expand_policy": "auto_expand"
-      }
-    },
-    {
       "card": {
         "type": "list_card",
         "paddings": {
