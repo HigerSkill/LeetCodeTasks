@@ -59,5 +59,17 @@
         ]
       }
     }
-  ]
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "Test",
+        "type": "server_action",
+        "message_name": "SERVER_ACTION",
+        "server_action": {
+          "action_id": "get_operations_more"
+        }
+      }
+    ]
+  }
 }
