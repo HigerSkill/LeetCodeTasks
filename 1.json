@@ -1,93 +1,86 @@
 {
-    "type": "sdk_answer",
-    "items": [
+    "type": "list_card",
+    "paddings": {
+        "top": "4x",
+        "bottom": "4x",
+        "left": "4x"
+    },
+    "cells": [
         {
-            "card": {
-                "type": "list_card",
-                "paddings": {
-                    "top": "4x",
-                    "bottom": "4x",
-                    "left": "4x"
-                },
-                "cells": [
-                    {
-                        "type": "text_cell_view",
-                        "paddings": {
-                            "left": "8x"
-                        },
-                        "content": {
-                            "text": "Подписки",
-                            "typeface": "headline2",
-                            "text_color": "default"
-                        }
+            "type": "text_cell_view",
+            "paddings": {
+                "left": "8x"
+            },
+            "content": {
+                "text": "Подписки",
+                "typeface": "headline2",
+                "text_color": "default"
+            }
+        },
+        {
+            "type": "left_right_cell_view",
+            "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+            },
+            "left": {
+                "type": "simple_left_view",
+                "icon": {
+                    "address": {
+                        "type": "url",
+                        "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
+                        "placeholder": "digital_banknotes"
                     },
+                    "size": {
+                        "width": "medium",
+                        "height": "medium"
+                    },
+                    "margins": {
+                        "right": "6x"
+                    },
+                    "tint_color": "solid_brand",
+                    "rounded_corners": "circle"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                    "title": {
+                        "text": "СберПрайм+",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 3
+                    },
+                    "subtitle": {
+                        "text": "Действует до 10 мая 2024 года",
+                        "typeface": "footnote1",
+                        "max_lines": 2,
+                        "text_color": "secondary",
+                        "margins": {
+                            "top": "1x"
+                        }
+                    }
+                }
+            },
+            "right": {
+                "type": "right_cell_array_view",
+                "orientation": "horizontal",
+                "items": [
                     {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "left": "8x",
-                            "top": "8x",
-                            "right": "8x",
-                            "bottom": "8x"
-                        },
-                        "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                                "address": {
-                                    "type": "url",
-                                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/sberPrime.png",
-                                    "placeholder": "sberPrime"
-                                },
-                                "size": {
-                                    "width": "medium",
-                                    "height": "medium"
-                                },
-                                "margins": {
-                                    "right": "6x"
-                                },
-                                "tint_color": "solid_brand",
-                                "rounded_corners": "circle"
-                            },
-                            "icon_vertical_gravity": "top",
-                            "texts": {
-                                "title": {
-                                    "text": "СберПрайм+",
-                                    "typeface": "body1",
-                                    "text_color": "default",
-                                    "max_lines": 3
-                                },
-                                "subtitle": {
-                                    "text": "Действует до 10 мая 2024 года",
-                                    "typeface": "footnote1",
-                                    "max_lines": 2,
-                                    "text_color": "secondary",
-                                    "margins": {
-                                        "top": "1x"
-                                    }
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "right_cell_array_view",
-                            "orientation": "horizontal",
-                            "items": [
-                                {
-                                    "type": "disclosure_right_view",
-                                    "margins": {
-                                        "right": "5x"
-                                    }
-                                }
-                            ]
-                        },
-                        "actions": [
-                            {
-                                "type": "deep_link",
-                                "deep_link": "sbolonline://sberprime/sc"
-                            }
-                        ],
-                        "vertical_gravity": "center"
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "right": "5x"
+                        }
                     }
                 ]
-            }
+            },
+            "actions": [
+                {
+                    "type": "deep_link",
+                    "deep_link": "sbolonline://sberprime/sc"
+                }
+            ],
+            "vertical_gravity": "center"
         }
     ]
 }
