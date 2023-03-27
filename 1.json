@@ -407,10 +407,7 @@
                                 }
                             },
                             {
-                                "type": "disclosure_right_view",
-                                "margins": {
-                                    "right": "5x"
-                                }
+                                "type": "disclosure_right_view"
                             }
                         ]
                     },
@@ -511,10 +508,7 @@
                                 }
                             },
                             {
-                                "type": "disclosure_right_view",
-                                "margins": {
-                                    "right": "5x"
-                                }
+                                "type": "disclosure_right_view"
                             }
                         ]
                     },
@@ -615,10 +609,7 @@
                                 }
                             },
                             {
-                                "type": "disclosure_right_view",
-                                "margins": {
-                                    "right": "5x"
-                                }
+                                "type": "disclosure_right_view"
                             }
                         ]
                     },
@@ -687,10 +678,7 @@
                         }
                     },
                     "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "right": "5x"
-                        }
+                        "type": "disclosure_right_view"
                     },
                     "actions": [
                         {
