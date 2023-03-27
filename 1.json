@@ -13,6 +13,7 @@
                 {
                     "type": "text_cell_view",
                     "paddings": {
+                        "top": "4x",
                         "left": "8x"
                     },
                     "content": {
@@ -25,7 +26,8 @@
                     "type": "text_cell_view",
                     "paddings": {
                         "top": "1x",
-                        "left": "8x"
+                        "left": "8x",
+                        "bottom": "8x"
                     },
                     "content": {
                         "text": "В марте",
@@ -102,10 +104,7 @@
                                 }
                             },
                             {
-                                "type": "disclosure_right_view",
-                                "margins": {
-                                    "right": "5x"
-                                }
+                                "type": "disclosure_right_view"
                             }
                         ]
                     },
@@ -206,10 +205,7 @@
                                 }
                             },
                             {
-                                "type": "disclosure_right_view",
-                                "margins": {
-                                    "right": "5x"
-                                }
+                                "type": "disclosure_right_view"
                             }
                         ]
                     },
@@ -310,10 +306,7 @@
                                 }
                             },
                             {
-                                "type": "disclosure_right_view",
-                                "margins": {
-                                    "right": "5x"
-                                }
+                                "type": "disclosure_right_view"
                             }
                         ]
                     },
